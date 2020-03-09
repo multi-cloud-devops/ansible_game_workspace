@@ -1,0 +1,13 @@
+---
+# tasks file for php
+
+- name: install php
+  yum:
+    name: "{{ packages }}"
+    state: present
+  vars:
+    packages:
+    - php
+    - php-fpm
+- name: www template
+  template: src=www.conf dest=/etc/php-fpm.d/

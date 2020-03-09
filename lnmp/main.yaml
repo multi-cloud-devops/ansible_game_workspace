@@ -1,0 +1,10 @@
+- name: install server
+  hosts: server
+  remote_user: root
+  become: yes
+
+  roles:
+    - common
+    - nginx
+    - php
+    - lnmp
