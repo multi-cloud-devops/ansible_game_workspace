@@ -1,5 +1,0 @@
----
-# handlers file for php
-
-- name: restart php-fpm
-  systemd: name=php-fpm state=restarted

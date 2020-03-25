@@ -1,0 +1,7 @@
+{% for module in module_list %}
+
+- hosts: {{ game }}_{{ cluster }}_{{ module }}
+  roles:
+  - {{ module }}
+
+{% endfor %}

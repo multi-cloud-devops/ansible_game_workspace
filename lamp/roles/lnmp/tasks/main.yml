@@ -1,8 +1,0 @@
----
-# tasks file for lnmp
-
-- name: start service
-  systemd: name={{ item }} state=restarted
-  with_items:
-  - nginx
-  - php-fpm

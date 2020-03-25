@@ -1,0 +1,18 @@
+
+
+- hosts: auror_online_gameserver
+  roles:
+  - gameserver
+
+
+
+- hosts: auror_online_battleserver
+  roles:
+  - battleserver
+
+
+
+- hosts: auror_online_chatserver
+  roles:
+  - chatserver
+

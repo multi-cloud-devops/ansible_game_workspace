@@ -1,0 +1,25 @@
+---
+# tasks file for gameserver
+
+- debug:
+    msg: "start game server "
+  tags: "start"
+
+
+- debug:
+    msg: "stop game server "
+  tags: "stop"
+
+
+- debug:
+    msg: "restart game server "
+  tags: "restart"
+
+- debug:
+    msg: "reload game server "
+  tags: "reload"
+
+
+- debug:
+    msg: "reload_config game server "
+  tags: "reload_config"

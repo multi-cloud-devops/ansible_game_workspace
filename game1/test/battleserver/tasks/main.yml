@@ -1,0 +1,6 @@
+---
+# tasks file for battleserver
+
+
+- debug:
+    msg: "hello role!"

@@ -1,0 +1,6 @@
+---
+# tasks file for chatserver
+
+
+- debug:
+    msg: "hello role!"
